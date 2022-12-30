@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Product Modal</title>
+  </head>
+
+  <body>
+<!--Container-->
+<div class="flex items-center justify-center p-2 bg-zinc-500 h-vh border-zinc-500">
+ <!--Card-->
+    <div class="flex flex-col p-6 bg-white md:flex-row md:my-auto rounded-2xl">
+        <!--img-->
+        <div class="mx-auto md:mt-14 md:px-4">
+          <img class="w-60" src="images/headphone.png" />
+        </div>
+
+        <!--Details-->
+        <div class="p-4 mt-8 space-y-3 text-center md:text-left md:max-w-md">
+            <button class="px-2 py-1 text-white bg-black rounded-2xl">Free Shipping</button>
+            <h1 class="text-2xl font-medium">Razer Kraken Kitty Edt Gaming Headset Quartz</h1>
+            <span class="block line-through">$799</span>
+            <span class="block text-5xl font-bold">$599</span>
+            <span class="block text-xs font-light text-gray-400">This offer is valid until April 3rd or as long as stock lasts!</span>
+            <button class="text-white block md:max-w-[350px] hover:bg-blue-700 hover:border-b-0   border-b-8 rounded-2xl transition-all duration-100 py-4 text-center border-b-blue-900 w-full bg-blue-700">Add to cart</button>
+            
+            <div class="flex flex-row pt-2 mt-1">
+            <div class="w-4 h-4 mt-1 bg-green-500 border-2 rounded-xl hover:animate-ping"></div>
+            <div class="mx-2 text-sm">50+ pcs. in stock</div>
+            </div>
+
+            <!--Add to cart-->
+            <div class="flex flex-col md:flex-row md:space-x-4">
+                <div class="transition-all duration-100 border-4 shadow-sm rounded-xl hover:shadow-lg hover:bg-opacity-100 md:px-2">
+                <img class="inline-block py-2 " src="images/weight.png" /><span class="px-2 text-sm">Add to cart</span>
+                </div>
+             <div>
+    
+              <div class="transition-all duration-100 border-4 shadow-sm rounded-xl hover:shadow-lg hover:bg-opacity-100 md:px-2 ">
+              <img class="inline-block py-2 " src="images/heart.png" /><span class="px-2 text-sm">Add to wishlist</span>
+              </div>
+
+             </div>
+            </div>
+
+          </div>
+    </div>
+</div>
+
+</body>
+  </html>  
